@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner obj= new Scanner(System.in);
+		int m1,m2,m3,m4,m5,m6;
+		System.out.print("Enter Mark1 : ");
+		m1=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark2 : ");
+		m2=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark3 : ");
+		m3=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark4 : ");
+		m4=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark5 : ");
+		m5=obj.nextInt();
+		obj.nextLine();
+		System.out.print("Enter Mark6 : ");
+		m6=obj.nextInt();
+		obj.nextLine();
+		System.out.println("--------------");
+		System.out.println("The Marks are");
+		System.out.println("--------------");
+		System.out.println("Mark1 : "+m1);
+		System.out.println("Mark2 : "+m2);
+		System.out.println("Mark3 : "+m3);
+		System.out.println("Mark4 : "+m4);
+		System.out.println("Mark5 : "+m5);
+		System.out.println("Mark6 : "+m6);
+		int sum,avg;
+		sum=m1+m2+m3+m4+m5+m6;
+		avg=sum/6;
+		System.out.println("The Average Mark:"+avg);
+	}
+}
