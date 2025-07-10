@@ -1,0 +1,8 @@
+class Shop {
+    public static void main(String[] args) {
+        int tomato = 2;
+        int weight_mechine = 0;
+        weight_mechine = tomato;
+        System.out.println(weight_mechine);
+    }
+}
