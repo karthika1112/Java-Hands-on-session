@@ -1,0 +1,15 @@
+{
+	public static void main(String[] args)
+	{
+	    boolean gate=false;
+		System.out.println("Gate : "+gate);
+		if(gate)
+		{
+		    System.out.println("TRUE");
+		}
+		else
+		{
+		    System.out.println("FALSE");
+	    }
+	}
+}
