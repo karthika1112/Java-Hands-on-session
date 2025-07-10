@@ -1,0 +1,11 @@
+package sqrNum;
+
+public class sqrNum {
+
+    public static void main(String[] args) {
+        for (int i = 50; i <= 100; i++) {
+            int sqr = i * i;
+            System.out.println("Number: " + i + " And Square: " + sqr);
+        }
+    }
+}
