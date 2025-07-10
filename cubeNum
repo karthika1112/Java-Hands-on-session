@@ -1,0 +1,14 @@
+package cubeNum;
+
+public class cubeNum {
+
+	public static void main(String[] args) {
+		for(int i = 50;i<=100;i++){
+			int cube = i*i*i;
+			System.out.println("Number : "+i +" And cube : "+cube);
+			
+		}
+
+	}
+
+}
