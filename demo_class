@@ -1,0 +1,26 @@
+package TEST1;
+import java.util.*; // fixed semicolon
+
+class Print {
+    public int number;
+
+    public void display() {
+        System.out.println("number = " + number);
+    }
+}
+
+public class Demo {
+    public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        Print obj = new Print();
+
+        System.out.print("Enter the number: ");
+        int num = x.nextInt(); // input taken but not used here
+
+        obj.number = num;      // using the input value
+        obj.display();
+
+        obj.number = 4000;     // updating the value
+        obj.display();
+    }
+}
