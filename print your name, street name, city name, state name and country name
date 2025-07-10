@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        int rollno;
+        String name, str_name, city_name, state_name, country_name; //string datatype declaration
+        Scanner obj=new Scanner(System.in);
+        System.out.print("Enter the Roll.No: ");
+        rollno=obj.nextInt();
+        obj.nextLine();
+        System.out.print("Enter the Name: ");
+        name=obj.nextLine();
+        System.out.print("Enter the Street Name: ");
+        str_name=obj.nextLine();
+        System.out.print("Enter the City Name: ");
+        city_name=obj.nextLine();
+        System.out.print("Enter the State Name: ");
+        state_name=obj.nextLine();
+        System.out.print("Enter the Country Name: ");
+        country_name=obj.nextLine();
+        System.out.println("Roll.No : "+rollno); 
+        System.out.println("Name : "+name); 
+        System.out.println("Street Name : "+str_name); 
+        System.out.println("City Name : "+city_name); 
+        System.out.println("State Name : "+state_name); 
+        System.out.println("Country_Name : "+country_name); 
+    }
+}
