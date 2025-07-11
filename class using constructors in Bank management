@@ -1,0 +1,35 @@
+package Bank;
+
+class customer{
+	public String name;
+	public int accno;
+	public String bankname;
+	public String branchname;
+
+void getdetails(String n,int an,String bankn,String branchn){
+	name =n;
+	accno=an;
+	bankname = bankn;
+	branchname=branchn;
+	
+	
+}
+
+public void display()
+{
+	System.out.println("Name:"+name );
+	System.out.println("account number:"+accno );
+	System.out.println("Bank name:"+bankname );
+	System.out.println("Branch name:"+branchname);
+
+}
+}
+public class myMain {
+
+	public static void main(String[] args) {
+		customer c = new customer();
+		c.getdetails("karthika",101,"KVP","vadasithur");
+		c.display();
+	}
+
+}
