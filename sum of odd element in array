@@ -1,0 +1,30 @@
+package arrayclasss;
+import java.util.Scanner;
+
+public class myarray {
+
+	public static void main(String[] args) {
+		System.out.println("Enter array value:");
+		Scanner input = new Scanner(System.in);
+		int size;
+		size = input.nextInt();
+		int [] arr = new int[size];
+		for(int i=0;i<size;i++)
+		{
+		arr[i] = input.nextInt();
+		}
+		int sum=0;
+		for(int i:arr)
+		{
+			if(i%2!=0)
+			{
+			sum = sum+i;
+			//System.out.println("array elements: ");
+			System.out.println("odd elements in array : "+i);
+			}
+		}
+		System.out.println("Sum of array elements : "+sum);
+		
+	}
+
+}
