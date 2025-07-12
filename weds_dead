@@ -1,0 +1,21 @@
+package Weds_dead;
+
+import java.util.Scanner;
+
+public class Weds_deads {
+	public static void main(String[] args) {
+		
+		Scanner n= new Scanner(System.in);
+		String meghana =n.nextLine();
+		if(meghana.equals("dead"))
+		{
+			System.out.println("Surya meets Ramya");
+		}
+		else
+		{
+			System.out.println("Surya weds meghana");
+		}
+
+	}
+
+}
