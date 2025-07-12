@@ -1,0 +1,23 @@
+package Scholarship;
+
+import java.util.Scanner;
+
+public class Scholarship {
+
+	public static void main(String[] args) {
+		System.out.print("Enter income : ");
+		Scanner input = new Scanner(System.in);
+		int income = input.nextInt();
+		if(income >= 70000)
+		{
+			System.out.println("Scholarship available");
+		}
+		else
+		{
+			System.out.println("Not eligible");
+		}
+		
+
+	}
+
+}
