@@ -1,0 +1,24 @@
+package marks;
+
+import java.util.Scanner;
+
+public class mark {
+
+	public static void main(String[] args) {
+		System.out.print("Enter marks : ");
+		Scanner input = new Scanner(System.in);
+		int m = input.nextInt();
+		if(m >= 35)
+		{
+			System.out.println("Pass");
+		}
+		else
+		{
+			System.out.println("File");
+		}
+		
+
+	}
+
+}
+
