@@ -1,0 +1,17 @@
+package arraymy;
+import java.util.Scanner;
+public class arraymy {
+	public static void main(String[] args) {
+char[] name= {'C','o','i','m','b','a','t','o','r','e'};
+	for(int i=0;i<10;i++)
+	{
+	System.out.print(name[i]);
+	}
+	
+String frits[] = {"mango","apple","banana"};
+for(int i=0;i<3;i++)
+{
+	System.out.println(frits[i]);
+}
+}
+}
