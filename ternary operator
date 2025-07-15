@@ -1,0 +1,15 @@
+package ternary;
+
+public class ternary {
+
+	public static void main(String[] args) {
+		if(false){
+			System.out.println("yes");
+	}else
+	{
+		System.out.println("no");
+	}
+		//ternary operator
+		System.out.print(true?"yes":"no");
+}
+}
