@@ -1,5 +1,5 @@
 package forloop;
-
+import java.util.*;
 public class forloop {
 
 	public static void main(String[] args) {
@@ -16,11 +16,72 @@ public class forloop {
 		}
 		System.out.println("");
 
+		//reverse
 		for(int i=10;i>=1;i--)
 		{
 			System.out.print(" "+i);
 		}
-
+		
+		
+		//print a to b
+		System.out.println("");
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a : ");
+		int a=sc.nextInt();
+		System.out.println("Enter b : ");
+		int b=sc.nextInt();
+		for(int i=a;i<=b;i++)
+		{
+			System.out.print(" "+i);
+		}
+		
+		System.out.println("");
+		
+		//even numbers
+		for(int i=1;i<=10;i++) {
+			if(i%2==0)
+			{
+				System.out.print(" "+i);
+			}
+		}
+		
+		System.out.println("");
+		
+		//count num of odd numbers
+		int count =0;
+		for(int i=1;i<=10;i++) {
+			if(i%2!=0)
+			{	
+				count++;
+			}
+		}
+		System.out.print("Odd count : "+count);
+		System.out.println("");
+		
+		
+		//count num of even numbers
+		int count2 =0;
+		for(int i=1;i<=10;i++) {
+			if(i%2==0)
+			{	
+				count2++;
+			}
+		}
+		System.out.print("Even count : "+count);
+		System.out.println("");
+		
+		
+		//divi by 3 and 5
+		
+		for(int i=1;i<=100;i++)
+		{
+			if(i%3==0 && i%5==0)
+			{
+				System.out.println("Divisible by 3 and 5 is : "+i);
+			}
+		}
+		
+		System.out.println("");
 	}
 
 }
