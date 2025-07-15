@@ -1,0 +1,54 @@
+package arraymy;
+import java.util.Scanner;
+public class arraymy {
+	public static void main(String[] args) {
+		String[] playlist =  new String[3];
+		playlist[0]="song1";
+		System.out.println(playlist[0]);
+		playlist[1]="song2";
+		System.out.println(playlist[1]);
+		playlist[2]="song3";
+		System.out.println(playlist[2]);
+		
+		String[] songs = {"song1","song2","song3"};
+		System.out.print(songs[0]);
+
+
+		System.out.println("");
+		
+		
+		int[] arr=new int[5];
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter 5 numbers : ");
+		arr[0] = sc.nextInt();
+		arr[1]=sc.nextInt();
+		arr[2]=sc.nextInt();
+		arr[3]=sc.nextInt();
+		arr[4]=sc.nextInt();
+		
+		System.out.println(arr[0]+arr[1]+arr[2]+arr[3]+arr[4]);
+		
+		//5 subject mark in for loop
+		int[] marks=new int[5];
+		Scanner sc1=new Scanner(System.in);
+		System.out.println("Enter 5 numbers : ");
+		for(int i=0;i<=4;i++) {
+			marks[i]=sc1.nextInt();
+		}
+		System.out.println("marks : ");
+		for(int i=0;i<=4;i++) {
+			System.out.print(" "+marks[i]);
+		}
+		System.out.println("");
+		
+		
+		//10 num from array using for loop
+		System.out.println("1 to 10 numbers");
+		int[] a = {1,2,3,4,5,6,7,8,9,10};
+		for(int i=0;i<10;i++)
+		{
+			System.out.print(" "+a[i]);
+		}
+		
+	}
+}
