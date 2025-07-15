@@ -1,0 +1,26 @@
+package traffic_light;
+
+import java.util.Scanner;
+
+public class Traffic_light {
+
+	public static void main(String[] args) {
+		Scanner input =new Scanner(System.in);
+		String color=input.nextLine();
+		if(color.equals("red")) {
+			System.out.println("STOP");
+		}
+		else if(color.equals("yellow")) {
+			System.out.println("Get Ready");
+		}
+		else if(color.equals("green"))
+		{
+			System.out.println("GO");
+		}
+		else
+		{
+			System.out.print("Invalid input");
+		}
+	}
+
+}
