@@ -1,0 +1,48 @@
+package whileloop;
+import java.util.Random;
+public class whileloop {
+
+    public static void main(String[] args) {
+        Random rand = new Random();
+        int newnum = 0;
+        while(newnum!=5) {
+        	newnum = rand.nextInt(11);
+        	System.out.println(newnum);
+        }
+    }
+}
+o/p:
+10
+0
+10
+6
+0
+2
+9
+4
+6
+1
+1
+10
+1
+8
+10
+0
+2
+9
+1
+8
+2
+8
+4
+1
+8
+3
+8
+9
+7
+8
+1
+8
+8
+5
