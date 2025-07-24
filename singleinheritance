@@ -1,0 +1,22 @@
+package singleinheritance;
+
+class singleinheritance{
+	int num_stu;
+}
+class cce extends singleinheritance{
+	void display() {
+		System.out.println("Student number = "+num_stu);
+		}
+
+}
+public class single {
+
+	public static void main(String[] args) {
+		cce obj=new cce();
+		obj.num_stu=65;
+		obj.display();
+		
+
+	}
+
+}
