@@ -1,0 +1,52 @@
+package exam_details;
+
+class exam_details {
+    int Mmaths;
+    int Menglish;
+    int Mjava;
+
+    void display() {
+        int sum = Mmaths + Menglish + Mjava;
+        System.out.println("Sum : " + sum);
+    }
+}
+
+class maths extends exam_details {
+    void show() {
+        System.out.println("The maths mark: " + Mmaths);
+    }
+}
+
+class englis extends exam_details {
+    void show() {
+        System.out.println("The English mark: " + Menglish);
+    }
+}
+
+class java extends exam_details {
+    void show() {
+        System.out.println("The Java mark: " + Mjava);
+    }
+}
+
+public class examclass {
+    public static void main(String[] args) {
+        maths m = new maths();
+        m.Mmaths = 80;
+        m.show();
+
+        englis e = new englis();
+        e.Menglish = 97;
+        e.show();
+
+        java j = new java();
+        j.Mjava = 85;
+        j.show();
+
+        exam_details total = new exam_details();
+        total.Mmaths = m.Mmaths;
+        total.Menglish = e.Menglish;
+        total.Mjava = j.Mjava;
+        total.display();
+    }
+}
